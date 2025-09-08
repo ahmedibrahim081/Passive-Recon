@@ -678,11 +678,40 @@ class linkAnalyse():
             links = re.findall(self.regex_str, body, re.VERBOSE)
             for link in links:
                 link_str = link[0] if isinstance(link, tuple) else link
-                if '/' in link_str and ' ' not in link_str and ',' not in link_str and not link_str.startswith('./') and not link_str.startswith('}') and not link_str.startswith('=') and not link_str.startswith('@') and not link_str.startswith('../') and self.is_valid_link(link_str):
+                link_str = link_str.strip()
+
+                if (
+                    '/' in link_str
+                    and ' ' not in link_str
+                    and ',' not in link_str
+                    and not link_str.startswith('./')
+                    and not link_str.startswith('}')
+                    and not link_str.startswith('=')
+                    and not link_str.startswith('@')
+                    and not link_str.startswith('../')
+                    and self.is_valid_link(link_str)
+                    # 👇 extra filter for unwanted MIME types
+                    and not link_str.startswith((
+                        "application",
+                        "text",
+                        "image",
+                        "svg",
+                        "xml",
+                        "css",
+                        "Asia",
+                        "Europe",
+                        "Pacific",
+                        "America",
+                        "video",
+                        "audio",
+            
+                    ))
+                ):
                     issueLinks.append({'link': link_str})
             return issueLinks
         except:
             return None
+
 
     def is_valid_link(self, link):
         if re.search(r'[^\x20-\x7E]', link):
